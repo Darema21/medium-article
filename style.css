@@ -1,0 +1,92 @@
+head {
+  display: none;
+}
+
+div {
+  display: block;
+}
+body {
+  color: rgb(73, 73, 73);
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0px;
+}
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color:#A0A0A0;
+  font-weight: normal;
+}
+
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.link-media {
+  background-image: linear-gradient(rgb(233, 253, 240), rgb(233, 253, 240));
+  color: rgb(99, 99, 99);
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+}
+.link-media:hover {
+  background-image: linear-gradient(rgb(125, 255, 179), rgb(125, 255, 179));
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
